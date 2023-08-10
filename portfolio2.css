@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Cormorant+SC&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: 0;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.623)), url(portfolio2.1.jpg);
+    background-size: cover;
+}
+.project{
+    background: linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.623));
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.logo {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+span {
+    color: red
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: 0.4s;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bolder;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position:absolute;
+    top: 50%;
+    left: 7%;
+    padding: 22px 900px;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+
+
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.newsletter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+}
+
+.newsletter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 9px 19px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgba(19, 18, 18, 0.231);
+    top: 3px;
+    right: -22px;
+}
+
+.About {
+    width: 100%;
+    padding: 100px 0 px;
+    background-color: linear-gradient(rgba(198, 198, 198, 0.276), rgba(161, 157, 157, 0.877));
+}
+
+.About img {
+    height: 310px;
+    width: 450px;
+    padding: 0 ,30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.623));
+}
+
+.About-text {
+    width: 650px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: linear-gradient(rgba(198, 198, 198, 0.276), rgba(161, 157, 157, 0.877));
+}
+
+
+.About-text h2 {
+    color: #0000008c;
+    font-size: 85px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.About-text h4 {
+    color: #0000008c;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.About-text p {
+    color:black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transperent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.services {
+    background:linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.623));
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: #0000008c;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.623));
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    columns: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px ;
+    margin-bottom: 15px;
+}
+.pra p{
+    color:#000000;
+    font-size: 16px ;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transperent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background:linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.623));;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transperent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.icon ul{
+    display: flex;
+    list-style: none;
+   
+}
+.icon li{
+    margin: right 1em;
+}
+.icon a{
+    letter-spacing: 45px;
+    text-decoration: none;
+    justify-content: center;
+    padding: 20px 45px;
+    color: white;
+    font-weight:900;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.icon a:hover{
+    color:red;
+    cursor: pointer;
+}
+@media  screen and (max-width:1496px) {
+    body{
+        background-color: red;
+    }
+}
